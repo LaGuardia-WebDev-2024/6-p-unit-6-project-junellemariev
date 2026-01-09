@@ -11,8 +11,8 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  
-
+  rect(175,0,60,200)
+  triangle(220, 100, 200, 230, 100, 100);
   
 
 }
