@@ -11,9 +11,35 @@ void draw(){
   strokeWeight(1);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
-  rect(175,0,60,200)
-  triangle(220, 100, 200, 230, 100, 100);
-  
+
+  //face shape
+  strokeWeight(30)
+  stroke(0,100,230)
+  fill(225,110,15); //deep orange
+  ellipse(200,100,500,650)
+
+  //nose bridge
+  strokeWeight(5)
+  stroke (5,102,8); //green
+  fill(255,105,180); //hot pink
+  rect(170, 0, 60, 200); //nose bridge
+
+  //nostril
+  fill(255,0,0); //red
+  triangle(140,220,200,150,260,220); 
+
+  //eyes
+  strokeWeight (5)
+  stroke (0,0,0); //black
+  fill(255, 170, 51); //orange yellow
+  ellipse(80,100,180,100);  //left eye
+  ellipse(320,100,180,100); //right eye
+
+  //iris
+  strokeWeight(50)
+  stroke(51,171,249); //light blue
+  ellipse(80,90,40,40); //left eye
+  ellipse(320,90,40,40); //right eye
 
 }
 
